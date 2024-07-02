@@ -18,8 +18,7 @@ ___
 ##Database Manager
 
 * Run launch_dbmanager.py from the orcas folder
-* If running for the first time, click 'Build Database' to create the Tables and Users required to run the Server application.
-* Reference the ORCAS Server manual for more information
+* If running for the first time, click 'Build Database' to create the Tables and Users required to run the Server 
 
 ___
 
