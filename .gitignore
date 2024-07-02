@@ -1,4 +1,6 @@
-client/view/image
+client/view/image/**/*.JPG
+!client/view/image/blank/*
+!client/view/image/icons/*
 *.log
 .project
 .pydevproject
