@@ -1,0 +1,4 @@
+client/view/image
+*.log
+.project
+.pydevproject

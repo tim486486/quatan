@@ -1,0 +1,11 @@
+schema,table,fields
+quatan,decks,name VARCHAR(32) PRIMARY KEY NOT NULL
+quatan,locations,name VARCHAR(32) PRIMARY KEY NOT NULL
+quatan,cards,"id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
+deck VARCHAR(32) REFERENCES quatan.decks(name),
+location VARCHAR(32) REFERENCES quatan.locations(name),
+card VARCHAR(32) NOT NULL,
+position VARCHAR (32) NOT NULL DEFAULT 0,
+rotation INT NOT NULL DEFAULT 0"
+quatan,variables,"name VARCHAR(32) PRIMARY KEY NOT NULL,
+value VARCHAR(256) NOT NULL DEFAULT 0"

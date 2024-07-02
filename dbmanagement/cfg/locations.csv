@@ -1,0 +1,15 @@
+schema,table,name
+quatan,locations,principality_red
+quatan,locations,principality_blue
+quatan,locations,player_red
+quatan,locations,player_blue
+quatan,locations,basic_1
+quatan,locations,basic_2
+quatan,locations,basic_3
+quatan,locations,roads
+quatan,locations,regions
+quatan,locations,settlements
+quatan,locations,cities
+quatan,locations,events
+quatan,locations,events_discard
+quatan,locations,tokens

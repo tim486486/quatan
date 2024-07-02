@@ -1,0 +1,4 @@
+schema,table,name
+quatan,variables,numeric_dice
+quatan,variables,event_dice
+quatan,variables,last_event
